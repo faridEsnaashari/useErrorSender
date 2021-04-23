@@ -1,6 +1,6 @@
 {
   "name": "useerrorsender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this hook uses for sends errors to a url that gets as an argument. this hook send two kind of errors: - errors you handle them your self. use **sendError** method that returns from hook to send these errors. - errors you don't handle them and maybe fires unexpectedly.",
   "main": "useErrorSender.js",
   "scripts": {
