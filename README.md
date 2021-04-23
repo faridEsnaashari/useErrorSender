@@ -6,16 +6,16 @@ this hook uses for sends errors to a url that gets as an argument. this hook sen
 
 # How to use:
 
-1- this hook uses **axios** to send request to check connection. so first, you need to install it:
+1- First need to install the package:
 
 ```
-npm install axios
+npm install useerrorsender
 ```
 
-2- import the hook in ever component you need and call it with the needed [arguments](https://github.com/faridEsnaashari/useErrorSender#api). then use the returned method of it to send errors to server to save them.
+2- Then import the hook in every component you need and call it with the needed [arguments](https://github.com/faridEsnaashari/useErrorSender#api). then use the returned method of it to send errors to server to save them.
 
 ```javascript
-import useErrorSender from "./hooks/useErrorSender";
+import useErrorSender from "useerrorsender";
 
 const App = () => {
     const url = "http://localhost:3001/api/catchError";
@@ -35,7 +35,7 @@ const App = () => {
 the sendError method gets an object(error object) and send it to the given url. you can add your custom properties to this object and useErrorSender hook sends all of them. for example
 
 ```javascript
-import useErrorSender from "./hooks/useErrorSender";
+import useErrorSender from "useerrorsender";
 
 const App = () => {
     const url = "http://localhost:3001/api/catchError";
