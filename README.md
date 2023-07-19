@@ -89,4 +89,3 @@ const sendError = useErrorSender(url);
 # Contact me:
 
 - linkdin - [farid esnaashari](https://www.linkedin.com/in/farid-esnaashar-8bb139199)
-- twitter - [@farid_esnaashar](https://twitter.com/farid_esnaashar)
